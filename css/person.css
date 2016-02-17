@@ -70,9 +70,9 @@ ul,li{
     color: white;
     font-size: 16px;
 }
-.leader1{
+/*.leader1{
     min-width: 1024px;
-}
+}*/
 .leader2{
     min-width: 265px;
 }
@@ -202,7 +202,7 @@ ul{
 }
 .jb{
     background-image: url(../img1/bg.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100% auto;
 
 }
@@ -423,43 +423,9 @@ ul{
      background: #F12B82;
     }
 
-@media screen and (max-width: 516px){
-    .youlin{
-
-        margin: 20px auto;
-        width: 20px;
-        height: 40px;
-        border: 1px solid #DEDEDE;
-        border-radius: 10px;
-        position: relative;
-    }
-    .dian1{
-        width: 2px;
-        height: 6px;
-        background: #DAD8D8;
-        left: 50%;
-        margin-left:8px;
-        border-radius: 2px;
-        top: 50%;
-        margin-top: 28px;}
-    .lbo{
-        background-color:#fbfbfb;
-        height:200px;
-
-    }
-    .box{
-        height: 200px;
-    }
-    .box>.list{
-
-        background-size:auto 200px;
-        background-repeat: no-repeat;
-        background-position:bottom center;
-    }
-    .co{
-        top:78px;
-    }
 }
+
+
  .title2>span:nth-child(1){
     display: inline-block;
       -webkit-animation-name:bounce1;
@@ -662,5 +628,58 @@ ul{
     }
     .tubiao{
         margin: 0 auto;
+    }
+}
+@media screen and (max-width: 526px){
+     .hiden{
+        width: 180px;
+        height: 40px;
+        border-radius: 25px;
+        position: absolute;
+        top: 40px;
+        left: 130px;
+        border: 1px solid #4C4C4C;
+        text-align: center;
+        line-height: 40px;
+        display: none;
+        color: white;
+
+    }
+}
+@media screen and (max-width: 516px){
+    .youlin{
+
+        margin: 20px auto;
+        width: 20px;
+        height: 40px;
+        border: 1px solid #DEDEDE;
+        border-radius: 10px;
+        position: relative;
+    }
+    .dian1{
+        width: 2px;
+        height: 6px;
+        background: #DAD8D8;
+        left: 50%;
+        margin-left:8px;
+        border-radius: 2px;
+        top: 50%;
+        margin-top: 28px;}
+    .lbo{
+        background-color:#fbfbfb;
+        height:200px;
+
+    }
+    .box{
+        height: 200px;
+    }
+    .box>.list{
+
+        background-size:auto 200px;
+        background-repeat: no-repeat;
+        background-position:bottom center;
+    }
+    .co{
+        top:78px;
     }
 }
