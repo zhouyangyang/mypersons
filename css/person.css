@@ -294,6 +294,27 @@ ul{
 .right1{
     right:0;
 }
+.erwei{
+  width: 140px;
+    height: 140px;
+    background-image: url("../img1/1111.png");
+    background-size: 140px 140px;
+    position: fixed;
+    right: -140px;
+    bottom: 0px;
+}
+.an{
+   width: 70px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #FF9D57;
+    position: absolute;
+    top: 48px;
+    left: -70px;
+    border-radius: 20px;
+    color: white;
+}
 @-webkit-keyframes bounce1{
     from,100%{
         -webkit-transform:translate3d(0,0,0);}

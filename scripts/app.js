@@ -57,6 +57,16 @@ $(function(){
          $(this).find(".hiden").hide();
     }
      )
+
+  $(".erwei").hover(function(){
+         $(this).stop();
+        $(this).animate({right:"0px"},300);
+       
+    },function(){
+          $(this).stop();
+        $(this).animate({right:"-140px"},300);
+    }
+     )
 // ---------------------------------------------------
    var Timerr;
         function aa(){
